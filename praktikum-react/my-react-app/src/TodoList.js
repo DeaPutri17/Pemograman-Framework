@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 
-// Komponen untuk menampilkan satu tugas
-function TodoItem({ task }) {
-  return <li>{task}</li>;
+// Komponen untuk menampilkan satu tugas dengan tombol hapus
+function TodoItem({ task, onDelete }) {
+  return (
+    <li>
+      {task}
+      <button onClick={onDelete} style={{ marginLeft: "10px", color: "red" }}>
+        Hapus
+      </button>
+    </li>
+  );
 }
 
-// Komponen utama TodoList dengan fitur tambah tugas
+// Komponen utama TodoList dengan fitur tambah & hapus tugas
 function TodoList() {
   const [tasks, setTasks] = useState([]); // State untuk daftar tugas
   const [newTask, setNewTask] = useState(""); // State untuk input tugas baru
@@ -23,6 +30,11 @@ function TodoList() {
     }
   };
 
+  // Menghapus tugas berdasarkan index
+  const deleteTask = (index) => {
+    setTasks(tasks.filter((_, i) => i !== index)); // Filter daftar tanpa task yang dihapus
+  };
+
   return (
     <div>
       <h2>Daftar Tugas</h2>
@@ -35,7 +47,7 @@ function TodoList() {
       <button onClick={addTask}>Tambah</button>
       <ul>
         {tasks.map((task, index) => (
-          <TodoItem key={index} task={task} />
+          <TodoItem key={index} task={task} onDelete={() => deleteTask(index)} />
         ))}
       </ul>
     </div>
