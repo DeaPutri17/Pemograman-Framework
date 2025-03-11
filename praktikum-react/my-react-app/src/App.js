@@ -2,6 +2,7 @@
 import Counter from './Counter';
 import Greeting from './Greeting';
 import React, {useState} from "react";
+import TodoList from './TodoList';
 
 function Example() {
   const [name, setName] = useState('');
@@ -58,6 +59,9 @@ function Footer(){
   );
 }
 
+//komponen TodoList
+
+
 //komponen App yang menggunakan Header, Main, dan Footer
 function App(){
   return(
@@ -67,6 +71,7 @@ function App(){
       <Greeting name="Dea" />
       <Counter />
       <Example />
+      <TodoList tasks={["Makan", "Minum", "Tidur"]}/> 
       <Footer />
     </div>
   );
