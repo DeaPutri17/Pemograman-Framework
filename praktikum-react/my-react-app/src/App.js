@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+//komponen header
+function Header(){
+  return(
+    <header>
+      <h1>Aplikasi React Saya</h1>
+    </header>
+  );
+}
+
+//komponen main
+function Main(){
+  return(
+    <main>
+      <h2>Selamat Datang di Aplikasi React Saya!</h2>
+      <p>Ini adalah area konten utama.</p>
+    </main>
+  );
+}
+
+//komponen footer
+function Footer(){
+  return(
+    <footer>
+      <p>&copy; 2025 Aplikasi React Saya</p>
+    </footer>
+  );
+}
+
+//komponen App yang menggunakan Header, Main, dan Footer
+function App(){
+  return(
+    <div>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
