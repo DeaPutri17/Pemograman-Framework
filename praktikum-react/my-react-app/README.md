@@ -1,3 +1,57 @@
+# Laporan Praktikum
+
+|        |   Pemrograman Berbasis Framework   |
+|--------|------------------------------------|
+|Nama    | Dea Putri Nastiti                  |
+|NIM     | 2241720117                         |
+|Kelas   | TI-3B                              |
+|Absen   | 05                                 |
+
+## Langkah-langkah Praktikum
+
+1. Persiapan lingkungan
+2. Membuat komponen React
+
+    Tampilan sederhana dengan header, konten utama, dan footer
+    ![gambar1](/praktikum-react/my-react-app/ss/llp2.png)
+
+3. Menggunakan JSX untuk Membuat Komponen Dinamis
+
+    Ketika tombol ‘Tambah’ ditekan maka hitungan akan bertambah
+    ![gambar1](/praktikum-react/my-react-app/ss/llp3.png)
+
+4. Menggunakan Props untuk Mengirim Data
+
+    Menampilkan pesan “Halo, Dea!” yang ditampilkan oleh komponen Greeting
+    ![gambar1](/praktikum-react/my-react-app/ss/llp4.png)
+
+5.	Menggunakan State untuk Mengelola Data
+    ![gambar1](/praktikum-react/my-react-app/ss/llp5.png)
+
+
+## Tugas
+
+1.	Buat komponen baru bernama TodoList yang menampilkan daftar tugas (todo list). Gunakan state untuk mengelola daftar tugas dan props untuk mengirim data tugas ke komponen anak. 
+![gambar1](/praktikum-react/my-react-app/ss/tugas1.png)
+
+2.	Tambahkan fitur untuk menambahkan tugas baru ke dalam daftar menggunakan form input. 
+
+    Contoh menambahkan tugas membaca buku
+    ![gambar1](/praktikum-react/my-react-app/ss/tugas2a.png)
+
+    ![gambar1](/praktikum-react/my-react-app/ss/tugas2b.png)
+
+3.	Implementasikan fitur untuk menghapus tugas dari daftar.
+
+    ![gambar1](/praktikum-react/my-react-app/ss/tugas3a.png)
+
+    Contoh menghapus tugas membaca buku
+
+    ![gambar1](/praktikum-react/my-react-app/ss/tugas3b.png)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
