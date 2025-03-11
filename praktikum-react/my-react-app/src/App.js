@@ -71,7 +71,7 @@ function App(){
       <Greeting name="Dea" />
       <Counter />
       <Example />
-      <TodoList tasks={["Makan", "Minum", "Tidur"]}/> 
+      <TodoList /> 
       <Footer />
     </div>
   );
