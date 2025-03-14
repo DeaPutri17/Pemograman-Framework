@@ -1,3 +1,71 @@
+# Praktikum 3
+
+|        |   Pemrograman Berbasis Framework   |
+|--------|------------------------------------|
+|Nama    | Dea Putri Nastiti                  |
+|NIM     | 2241720117                         |
+|Kelas   | TI-3B                              |
+|Absen   | 05                                 |
+
+
+1. Persiapan Lingkungan
+
+    Membuat proyek Next.js
+    ![gambar1](/003-Router/003/ss/p1a.png)
+
+    ![gambar1](/003-Router/003/ss/p1b.png)
+
+2. Membuat Halaman dengan Server-Side Rendering (SSR) 
+
+    ![gambar1](/003-Router/003/ss/p2.png)
+
+3. Menggunakan Static Site Generation (SSG) 
+
+    ![gambar1](/003-Router/003/ss/p3.png)
+
+4. Menggunakan Dynamic Routes 
+
+    ![gambar1](/003-Router/003/ss/p4.png)
+
+5. Menggunakan API Routes
+
+    ![gambar1](/003-Router/003/ss/p5.png)
+
+6. Menggunakan Link Component 
+
+    ![gambar1](/003-Router/003/ss/p6a.png)
+
+    Saat "Tentang Kami" di klik maka akan keluar
+
+    ![gambar1](/003-Router/003/ss/p6b.png)
+
+## Tugas
+
+1. Buat halaman baru dengan menggunakan Static Site Generation (SSG) yang menampilkan daftar 
+pengguna dari API https://jsonplaceholder.typicode.com/users.
+
+    ![gambar1](/003-Router/003/ss/tugas1.png)
+
+2. Implementasikan Dynamic Routes untuk menampilkan detail pengguna berdasarkan ID. 
+
+    ![gambar1](/003-Router/003/ss/tugas2a.png)
+
+    Saat nama pengguna di klik
+
+    ![gambar1](/003-Router/003/ss/tugas2b.png)
+
+3. Buat API route yang mengembalikan data cuaca dari API eksternal (misalnya, 
+OpenWeatherMap) dan tampilkan data tersebut di halaman front-end.
+
+    Menggunakan Open-Meteo
+
+    ![gambar1](/003-Router/003/ss/tugas3a.png)
+
+    ![gambar1](/003-Router/003/ss/tugas3b.png)
+
+    ![gambar1](/003-Router/003/ss/tugas3c.png)
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
