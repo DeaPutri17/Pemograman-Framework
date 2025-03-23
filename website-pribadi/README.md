@@ -58,7 +58,7 @@ Error pada file layout.tsx dikarenakan file "src/components/Layout.tsx:" belum a
 
 2. Modifikasi halaman “Tentang Saya” Buat tampilan yang menarik  
 
-![gambar1](/website-pribadi/ss/l4_1.png)
+![gambar1](/website-pribadi/ss/t2.png)
 
 
 
