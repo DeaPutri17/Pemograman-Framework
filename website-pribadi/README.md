@@ -26,6 +26,30 @@ Error pada file layout.tsx dikarenakan file "src/components/Layout.tsx:" belum a
 
 ## Membuat Halaman Website
 
+- http://localhost:3000/ untuk halaman "Tentang Saya".
+
+    ![gambar1](/website-pribadi/ss/l2_1.png)
+
+- http://localhost:3000/projects untuk halaman "Proyek". 
+
+    ![gambar1](/website-pribadi/ss/l2_2.png)
+
+- http://localhost:3000/essays untuk halaman "Esai".
+
+    ![gambar1](/website-pribadi/ss/l2_3.png)
+
+## Membuat Layout dan Navigasi 
+
+![gambar1](/website-pribadi/ss/l3_1.png)
+
+![gambar1](/website-pribadi/ss/l3_2.png)
+
+![gambar1](/website-pribadi/ss/l3_3.png)
+
+## Membuat Halaman Proyek dengan Grid Responsif 
+
+![gambar1](/website-pribadi/ss/l4_1.png)
+
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
