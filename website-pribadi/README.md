@@ -50,9 +50,24 @@ Error pada file layout.tsx dikarenakan file "src/components/Layout.tsx:" belum a
 
 ![gambar1](/website-pribadi/ss/l4_1.png)
 
+# Tugas
+
+1. Modifikasi halaman "Esai" dengan Grid daftar artikel yang telah ditulis. 
+
+![gambar1](/website-pribadi/ss/t1.png)
+
+2. Modifikasi halaman “Tentang Saya” Buat tampilan yang menarik  
+
+![gambar1](/website-pribadi/ss/l4_1.png)
+
+
+
+
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+
 
 ## Getting Started
 
