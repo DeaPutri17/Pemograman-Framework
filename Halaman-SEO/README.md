@@ -9,59 +9,45 @@
 
 ## Langkah-langkah Praktikum
 
-1. Pastikan Node.js dan npm sudah terinstal di komputer Anda. Anda dapat memeriksanya dengan
-menjalankan perintah berikut di terminal atau command prompt:
+1. Menambahkan Favicon
 
-    ![gambar1](/website-pribadi/ss/l1_1.png)
+![gambar1](/Halaman-SEO/ss/p2.png)
 
-2. Buat direktori baru untuk proyek Next.js Anda:
+2. Menambahkan Metadata untuk SEO dan Open Graph Tags untuk Media Sosial
 
-    ![gambar1](/website-pribadi/ss/l1_2.png)
+3. Menguji SEO
+    - Tentang Saya
 
-3. Inisialisasi proyek Next.js dengan TypeScript dan App Router:
+        ![gambar1](/Halaman-SEO/ss/ptentang.png)
 
-    ![gambar1](/website-pribadi/ss/l1_3.png)
+    - Project
 
-Error pada file layout.tsx dikarenakan file "src/components/Layout.tsx:" belum ada. 
+        ![gambar1](/Halaman-SEO/ss/pprojek.png)
 
-## Membuat Halaman Website
+    - Esai
 
-- http://localhost:3000/ untuk halaman "Tentang Saya".
-
-    ![gambar1](/website-pribadi/ss/l2_1.png)
-
-- http://localhost:3000/projects untuk halaman "Proyek". 
-
-    ![gambar1](/website-pribadi/ss/l2_2.png)
-
-- http://localhost:3000/essays untuk halaman "Esai".
-
-    ![gambar1](/website-pribadi/ss/l2_3.png)
-
-## Membuat Layout dan Navigasi 
-
-![gambar1](/website-pribadi/ss/l3_1.png)
-
-![gambar1](/website-pribadi/ss/l3_2.png)
-
-![gambar1](/website-pribadi/ss/l3_3.png)
-
-## Membuat Halaman Proyek dengan Grid Responsif 
-
-![gambar1](/website-pribadi/ss/l4_1.png)
+        ![gambar1](/Halaman-SEO/ss/pesay.png)
 
 # Tugas
 
-1. Modifikasi halaman "Esai" dengan Grid daftar artikel yang telah ditulis. 
+Lakukan pengujian SEO dengan
 
-![gambar1](/website-pribadi/ss/t1.png)
+1.	Gunakan tools seperti Google Search Console untuk memeriksa performa SEO dari suatu website.
 
-2. Modifikasi halaman “Tentang Saya” Buat tampilan yang menarik  
+    Menggunakan Lighthouse (bawaan chrome) karena website masih lokal
 
-![gambar1](/website-pribadi/ss/t2.png)
+    - Tentang Saya
 
+        ![gambar1](/Halaman-SEO/ss/ttentang.png)
 
+    - Project
 
+        ![gambar1](/Halaman-SEO/ss/tproyek.png)
+
+    - Esai
+
+        ![gambar1](/Halaman-SEO/ss/tessay.png)
+    
 
 
 
