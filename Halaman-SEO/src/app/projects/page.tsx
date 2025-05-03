@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Image, { StaticImageData } from "next/image";
 import image1 from "../../../public/images/project1.jpg";
 import image2 from "../../../public/images/project2.jpg";
+import { defaultMetadata } from "@/utils/metadata";
 
 export const metadata: Metadata = {
     title: 'Proyek',
     description: 'Halaman tentang proyek saya.',
     openGraph: {
-      title: 'Proyek',
+        images : "https://example.com/default-image.jpg",
+        url : "https://example.com",
     }
 }
 
@@ -48,7 +50,7 @@ function ProjectItem({ name, url, urlDisplay, imageSrc }: ProjectItemProps) {
     );
 }
 
-export default function Projects() {
+export default function Projects({ metadata}: any) {
     return(
         <div className="mt-16 px-8">
             <header>

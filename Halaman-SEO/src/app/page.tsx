@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import profilePic from "../../public/images/Dea Putri Nastiti.jpg";
+import { defaultMetadata } from "@/utils/metadata";
 
 export const metadata: Metadata = {
   title: "Tentang Saya",
   description: "Halaman tentang saya.",
   openGraph: {
-    title: "Tentang Saya",
+    images : "https://example.com/default-image.jpg",
+    url : "https://example.com",
   },
 };
 
-export default function AboutMe() {
+export default function AboutMe({ metadata }: any ){
   return (
     <div className="mt-16 px-8 flex flex-col items-center">
       {/* Foto Profil */}

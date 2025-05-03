@@ -20,12 +20,14 @@
 // }
 
 import type { Metadata } from "next";
+import { defaultMetadata } from "@/utils/metadata";
 
 export const metadata: Metadata = {
     title: 'Esai',
     description: 'Halaman tentang esai saya.',
     openGraph: {
-      title: 'Esai',
+        images : "https://example.com/default-image.jpg",
+        url : "https://example.com",
     }
 };
 
@@ -58,7 +60,7 @@ const articles: EssaiItem[] = [
     }
 ];
 
-export default function Essays() {
+export default function Essays( { metadata }: any) {
     return (
         <div className="mt-16 px-8">
             <header>
