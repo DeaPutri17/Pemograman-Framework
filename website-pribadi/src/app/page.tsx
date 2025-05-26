@@ -26,7 +26,7 @@ export default function AboutMe() {
 
       {/* Header */}
       <header className="text-center">
-        <h1 className="font-bold text-4xl text-zinc-800">Tentang Saya</h1>
+        <h1 className="font-bold text-4xl text-zinc-800">About Me</h1>
         <p className="text-lg text-zinc-600 mt-4 max-w-2xl">
           Seorang mahasiswa Teknologi Informasi dengan minat di bidang{" "}
           <span className="font-semibold text-teal-500">
